@@ -2,10 +2,12 @@ name = "siren"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
+workers_dev = true
+account_id = "e85edceae8927f7ecdf570eab857c85f"
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "216a79ea5462492da7aa737cc8d7a2af"
+id = "69b17b7b8fc34796a0d2a95d7b932363"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
@@ -14,6 +16,6 @@ command = "cargo install worker-build && worker-build --release"
 build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
-UUID = "f282b878-8711-45a1-8c69-5564172123c1"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/sub.html"
+UUID = "49a3cbd5-c4d5-4c80-a9ec-d3ad2d9212ba"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/fionaalbina/fionavpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/fionaalbina/fionavpn/refs/heads/master/web/sub.html"
